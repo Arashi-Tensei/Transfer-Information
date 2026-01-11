@@ -57,4 +57,6 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+
+    implementation(files("libs/AMap3DMap_10.1.600_AMapNavi_10.1.600_AMapSearch_9.7.4_AMapLocation_6.5.1_20251020.aar"))
 }
